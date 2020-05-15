@@ -1,8 +1,8 @@
 # #100DaysOfCode Log - Round 1 - Sigsant
-The log of my #100DaysOfCode challenge. Started on [May 15, Friday, 2020].
 
+**Meta:** Aprender a realizar una web app basado en el juego de *Truth or dare*
 
-**Meta:** Aprender a realizar una web app - por ejemplo una app para reservar una mesa en un restaurante
+*Link de la idea original para futuras referencias* https://www.reddit.com/r/AppIdeas/comments/ggrloj/truth_or_drink_app/
 
 **Tecnología usada:** Angular 9
 
