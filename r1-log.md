@@ -2,11 +2,11 @@
 The log of my #100DaysOfCode challenge. Started on [May 15, Friday, 2020].
 
 
-Meta: Aprender a realizar una web app - por ejemplo una app para reservar una mesa en un restaurante
+**Meta:** Aprender a realizar una web app - por ejemplo una app para reservar una mesa en un restaurante
 
-Tecnología usada: Angular 9
+**Tecnología usada:** Angular 9
 
-Conocimientos previos: Principiante - Conocimientos básicos previos
+**Conocimientos previos:** Principiante - Conocimientos básicos previos
 
 
 ## Log
