@@ -28,7 +28,13 @@ Por otra parte, descubrir Typescript me ha hecho ver sus beneficios de hacer exp
 **Pensamientos del día**: Después de jugar un poco con la estructura de la app, he considerado dejar de utilizar Bootstrap y volver a usar CSS nativo al tener mucha más flexibilidad en esta aplicación. De momento me he estado replanteando cómo hacer el prototipo del proyecto y qué funciones básicas debería tener. 
 Por otra parte, estuve peleandome con Github para saber cómo subir el proyecto a mi repositorio mediante la linea de comandos de GIT.
 
-**Progreso de la app**: Proyecto paralizado para considerar cómo debe ser la app, eliminando toda la complejidad posible para que pueda adaptarlo a mi nivel de aprendizaje.  (0.5%).
+**Progreso de la app**: Proyecto paralizado para considerar cómo debe ser la app, eliminando toda la complejidad posible para que pueda adaptarlo a mi nivel de aprendizaje. (0.5%).
 
 
+### R1D3 : 24 de mayo de 2020
 
+***Progreso de aprendizaje de hoy***: Creación de JSON para su lectura en Angular mediante el módulo httpClient.
+
+**Pensamientos del día**: Después de unos días con ciertos problemas de salud retomo el proyecto. Tras considerar como afrontar este primer proyecto que hago con Angular, he decidido priorizar en la funcionalidad en lugar de la estética y accesibilidad en esta etapa inicial. Tras alguna pelea he conseguido ver el JSON de prueba en la app; al principio pensaba que era complicado pero después de varias correcciones he aprendido que no es tanta la dificultad. Tras considerarlo, usaré Firebase en la etapa final del proyecto, aunque eso ya no estaría incluido en la primera ronda de este desafío.
+
+**Progreso de la app**: Se retoma el proyecto a pesar de incumplir este desafío por razones ajenas a mi voluntad. He creado varios JSON con algunos retos iniciales y creado los componentes esenciales (pantalla de juego, edición de tarjetas) para crear sus funciones en los próximos dias. La app también está subida en un repositorio privado que se hará visible cuando considere que sea mínimamente funcional.  (¿1%?)
