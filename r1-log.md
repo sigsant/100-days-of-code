@@ -37,4 +37,13 @@ Por otra parte, estuve peleandome con Github para saber cómo subir el proyecto 
 
 **Pensamientos del día**: Después de unos días con ciertos problemas de salud retomo el proyecto. Tras considerar como afrontar este primer proyecto que hago con Angular, he decidido priorizar en la funcionalidad en lugar de la estética y accesibilidad en esta etapa inicial. Tras alguna pelea he conseguido ver el JSON de prueba en la app; al principio pensaba que era complicado pero después de varias correcciones he aprendido que no es tanta la dificultad. Tras considerarlo, usaré Firebase en la etapa final del proyecto, aunque eso ya no estaría incluido en la primera ronda de este desafío.
 
-**Progreso de la app**: Se retoma el proyecto a pesar de incumplir este desafío por razones ajenas a mi voluntad. He creado varios JSON con algunos retos iniciales y creado los componentes esenciales (pantalla de juego, edición de tarjetas) para crear sus funciones en los próximos dias. La app también está subida en un repositorio privado que se hará visible cuando considere que sea mínimamente funcional.  (¿1%?)
+**Progreso de la app**: He creado varios JSON con algunos retos iniciales y creado los componentes esenciales (pantalla de juego, edición de tarjetas) para crear sus funciones en los próximos dias. La app también está subida en un repositorio privado que se hará visible cuando considere que sea mínimamente funcional.  (¿1%?)
+
+
+### R1D4 : 25 de mayo de 2020
+
+***Progreso de aprendizaje de hoy***: Trabajando con routerLink: https://www.positronx.io/angular-router-tutorial/
+
+**Pensamientos del día**: He decidido seguir el curso de Udemy de Angular completo realizado por Max de Academind para entender mejor las funcionalidades de Angular y poder aplicarlo.
+
+**Progreso de la app**: He estado trabajando con las rutas de los enlaces con RouterLink. El proyecto está tomando forma pero sin funcionalidades.
