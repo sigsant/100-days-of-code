@@ -2,8 +2,8 @@
 
 **Meta:** Realizar una app CRUD por linea de comandos
 
-*Link para futuras referencias* (https://www.reddit.com/r/dailyprogrammer/comments/pihtx/intermediate_challenge_1)
-*Link del proyecto: (https://github.com/sigsant/go-event-planning)
+*Link para futuras referencias* https://www.reddit.com/r/dailyprogrammer/comments/pihtx/intermediate_challenge_1
+*Link del proyecto*: https://github.com/sigsant/go-event-planning
 
 **Tecnología usada:** Golang
 
@@ -14,11 +14,17 @@
 
 ### R1D1 : 3 de Noviembre de 2011
 
-***Progreso de aprendizaje de hoy*** 
+**Enlaces útiles**
+  * https://golangdocs.com/reading-and-writing-csv-files-in-golang
+  * https://golangcode.com/write-data-to-a-csv-file/
+  * https://www.golanglearn.com/converting-csv-data-to-json-in-golang/ (¿futuras referencias en caso de convertir JSON?)
+ 
+
+**Progreso de aprendizaje de hoy**
 Estoy aprendiendo el guardado de datos en ficheros CSV y cómo añadir nuevas líneas. Del mismo modo estoy empezando a implementar en mis proyectos los módulos para
 el uso de funciones y structs, para evitar la acumulación de datos en el fichero principal del programa.
 
-***Recordatorios***
+**Recordatorios**
 Refactorizar y limpiar los módulos para usarlo en otros submódulos menores y agrupados según su uso como componente. Evitar juntar los structs y
 funciones al menos que sea necesario hacerlo.
 
