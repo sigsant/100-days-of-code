@@ -12,7 +12,7 @@
 
 ## Log
 
-### R1D1 : 3 de Noviembre de 2011
+### R1D1 : 3 de Noviembre de 2020
 
 **Enlaces útiles**
   * https://golangdocs.com/reading-and-writing-csv-files-in-golang
