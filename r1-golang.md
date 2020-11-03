@@ -3,6 +3,7 @@
 **Meta:** Realizar una app CRUD por linea de comandos
 
 *Link para futuras referencias* https://www.reddit.com/r/dailyprogrammer/comments/pihtx/intermediate_challenge_1
+
 *Link del proyecto*: https://github.com/sigsant/go-event-planning
 
 **Tecnología usada:** Golang
