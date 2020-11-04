@@ -35,3 +35,22 @@ funciones al menos que sea necesario hacerlo.
  * Se realiza un formato de hora en caso de las horas y minutos contengan un dígito. 
  * Se realiza un formato de texto para que sea legible el evento tanto en el array 2D como en el fichero csv.
  
+ 
+ ### R1D2 : 4 de Noviembre de 2020
+
+**Enlaces útiles**
+  * https://medium.com/@moriagape/how-to-read-csv-files-in-golang-a-quiz-app-b5c8891207a0
+ 
+**Progreso de aprendizaje de hoy**
+ Después de mirar la documentación oficial de Golang, no he podido encontrar una manera de obtener un formato de salida que permita mostrar los datos
+ del fichero CSV en pantalla. Por suerte he encontrado una pequeña guía  que me ha servido de base para la solución a este problema que he enlazado 
+ en la sección de arriba.
+ 
+ He aprendido que es posible rellenar un struct por medio de un for range y acceder a estos datos.
+ 
+ Adicionalmente, he estado añadiendo flags para abrir el fichero elegido por el usuario en caso de que no tenga el nombre por defecto ("planning.csv")
+
+**Progreso de la app**
+ * Muestra en un formato legible todos los datos guardados en un fichero CSV. 
+ * Añadido flag de apertura de fichero:  -csv nombre-del-fichero
+ 
