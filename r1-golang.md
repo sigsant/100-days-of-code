@@ -40,17 +40,30 @@ funciones al menos que sea necesario hacerlo.
 
 **Enlaces útiles**
   * https://medium.com/@moriagape/how-to-read-csv-files-in-golang-a-quiz-app-b5c8891207a0
+  * https://joneisen.me/programming/2013/06/23/golang-and-default-values.html
+  
  
 **Progreso de aprendizaje de hoy**
  Después de mirar la documentación oficial de Golang, no he podido encontrar una manera de obtener un formato de salida que permita mostrar los datos
  del fichero CSV en pantalla. Por suerte he encontrado una pequeña guía  que me ha servido de base para la solución a este problema que he enlazado 
- en la sección de arriba.
+ en la sección de arriba. La solución era asociar un struct que indicase las partes que compone con cada apartado del fichero CSV,
+ tal como puede verse en mi [Gist](https://gist.github.com/sigsant/ceda6ae549caf910d9fbe978df1d81cc.js)
  
- He aprendido que es posible rellenar un struct por medio de un for range y acceder a estos datos.
- 
- Adicionalmente, he estado añadiendo flags para abrir el fichero elegido por el usuario en caso de que no tenga el nombre por defecto ("planning.csv")
+Por otra parte he decido añadir la posibilidad de que el usuario defina el nombre del fichero que se creará o, en caso de ya existir, manipular desde el 
+programa si no está de acuerdo con el nombre por defecto "planning.csv". 
+En relación a este problema, he notado que tiendo a complejizar los problemas, en lugar de buscar soluciones muchos más sencillas. Originalmente había considerado
+crear valores por defecto en los argumentos de la función de abrir/crear fichero para reflejar el cambio de nombre del usuario. 
+Al no existir esta opción en Golang debido a que dificulta el mantenimiento del código, al contrario que en Javascript o Python, he tenido que modificar
+el enfoque del problema y aplicar el paquete flag.
+
+He agregado un enlace con respecto a este problema con otras soluciones a partir de cambios en el esqueleto del struct o bien mediante el empleo de argumentos
+variádicos.
+
+**Recordatorios**
+Al contrario que en otros lenguajes, he encontrado mucho más útil leer las notas y la documentación de cada módulo que compone el lenguaje desde el [Repositorio
+oficial de Github](https://github.com/golang/go/tree/be943df58860e7dec008ebb8d68428d54e311b94/src) que desde la página web. Ayuda a entender la lógica del lenguaje y cómo se relaciona cada proceso cuando se invoca una función/interface.
 
 **Progreso de la app**
  * Muestra en un formato legible todos los datos guardados en un fichero CSV. 
  * Añadido flag de apertura de fichero:  -csv nombre-del-fichero
- 
+ * Bugfixes y modularizacion de código en otros paquetes.
