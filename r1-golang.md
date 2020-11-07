@@ -70,7 +70,6 @@ oficial de Github](https://github.com/golang/go/tree/be943df58860e7dec008ebb8d68
  
  ### R1D3 : 6 de Noviembre de 2020
 
-
 **Progreso de aprendizaje de hoy**
 No pude actualizar ayer debido a que no había avanzado nada en la aplicación. Pensaba diferentes maneras de como eliminar una línea de un fichero CSV a partir del siguiente flujo: 
 
