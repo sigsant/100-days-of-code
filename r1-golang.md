@@ -67,3 +67,18 @@ oficial de Github](https://github.com/golang/go/tree/be943df58860e7dec008ebb8d68
  * Muestra en un formato legible todos los datos guardados en un fichero CSV. 
  * Añadido flag de apertura de fichero:  -csv nombre-del-fichero
  * Bugfixes y modularizacion de código en otros paquetes.
+ 
+ ### R1D3 : 6 de Noviembre de 2020
+
+
+**Progreso de aprendizaje de hoy**
+No pude actualizar ayer debido a que no había avanzado nada en la aplicación. Pensaba diferentes maneras de como eliminar una línea de un fichero CSV a partir del siguiente flujo: 
+
+> Archivo CSV --> Conversión a Array multidimensional [][]string a partir de un struct --> eliminación del index del array ([x][]) --> conversión del array modificado a CSV.
+
+Actualmente me encuentro en el tercer paso y veo que no tengo muy claro el concepto de punteros y su uso en los structs. Entre ayer y hoy estuve mirando algunos paquetes de terceros para entender como ha sido resuelto este problema. No logré entender bien el concepto de "marshall"/"unmarshall" que emplean, por lo que tendré mirar tutoriales/guías/documentación para consolidar conocimientos.
+
+Por otra parte, he estado considerando mirar a largo plazo la posibilidad de crear una interfaz gráfica (fyne parece fácil de entender) o, con casi toda seguridad, emplear una interfaz web usando Golang como Back-end y React para Front-end. Tal como encuentro la situación dudo que hasta febrero como muy pronto empiece a trabajar en esta idea hasta que mire los frameworks existentes en este lenguaje de programación.
+
+
+ 
