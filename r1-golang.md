@@ -73,7 +73,7 @@ oficial de Github](https://github.com/golang/go/tree/be943df58860e7dec008ebb8d68
 **Progreso de aprendizaje de hoy**
 No pude actualizar ayer debido a que no había avanzado nada en la aplicación. Pensaba diferentes maneras de como eliminar una línea de un fichero CSV a partir del siguiente flujo: 
 
-> Archivo CSV --> Conversión a Array multidimensional [][]string a partir de un struct --> eliminación del index del array ([x][]) --> conversión del array modificado a CSV.
+> Archivo CSV --> Conversión a Array multidimensional ([][]string) a partir de un struct --> eliminación del index del array que contiene el dato --> conversión del array modificado a CSV.
 
 Actualmente me encuentro en el tercer paso y veo que no tengo muy claro el concepto de punteros y su uso en los structs. Entre ayer y hoy estuve mirando algunos paquetes de terceros para entender como ha sido resuelto este problema. No logré entender bien el concepto de "marshall"/"unmarshall" que emplean, por lo que tendré mirar tutoriales/guías/documentación para consolidar conocimientos.
 
